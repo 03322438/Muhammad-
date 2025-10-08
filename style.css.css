@@ -1,0 +1,56 @@
+
+.section{
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: justify;
+  
+}
+
+
+/* Extra styles */
+.skill-box {
+  padding: 1rem;
+  background-color: #0c64bc;
+  border: 1px solid #1a15b9;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+  color: #fff;
+}
+/* Form Styling */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+   margin-top: 15px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container button{
+  background-color: #0c64bc;
+  border: 2PX solid #1a15b9;
+  border-radius: 10px;
+  padding: 20p 10px;
+  font-size: 20px;
+  margin: 20px 0;
+  color: #fff;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  
+}
+.skill-box:hover{
+  transform: scale(1.05);
+}
+
+/* Optional: Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
